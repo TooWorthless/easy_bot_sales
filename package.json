@@ -1,0 +1,21 @@
+{
+  "name": "easy_bot_sales",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TooWorthless/easy_bot_sales.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/TooWorthless/easy_bot_sales/issues"
+  },
+  "homepage": "https://github.com/TooWorthless/easy_bot_sales#readme"
+}
