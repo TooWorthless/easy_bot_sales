@@ -2,7 +2,7 @@
   "name": "easy_bot_sales",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -13,9 +13,17 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/TooWorthless/easy_bot_sales/issues"
   },
-  "homepage": "https://github.com/TooWorthless/easy_bot_sales#readme"
+  "homepage": "https://github.com/TooWorthless/easy_bot_sales#readme",
+  "dependencies": {
+    "axios": "^1.8.2",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongodb": "^6.14.2",
+    "mongoose": "^8.12.1",
+    "node-telegram-bot-api": "^0.66.0"
+  }
 }
