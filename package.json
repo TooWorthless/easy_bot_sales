@@ -2,8 +2,9 @@
   "name": "easy_bot_sales",
   "version": "1.0.0",
   "description": "",
-  "main": "src/index.js",
+  "main": "src/bot.js",
   "scripts": {
+    "start": "nodemon bot.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -24,6 +25,7 @@
     "express": "^4.21.2",
     "mongodb": "^6.14.2",
     "mongoose": "^8.12.1",
-    "node-telegram-bot-api": "^0.66.0"
+    "node-telegram-bot-api": "^0.66.0",
+    "nodemon": "^3.1.9"
   }
 }
