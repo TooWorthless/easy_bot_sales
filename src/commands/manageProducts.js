@@ -50,6 +50,7 @@ export async function handleManageProducts(bot, msg) {
 
         case "📜 Создать категорию ➕":
             await bot.sendMessage(chatId, "📜 Введите название для категории 🏷")
+            
             await bot.on("message", async (msg) => {
                 const text = msg.text;
                 const newCategory = new Category({

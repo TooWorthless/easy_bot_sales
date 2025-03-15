@@ -12,7 +12,7 @@ categorySchema.pre('save', async function (next) {
 
     try {
         const lastCategory = await this.constructor.findOne({}, {}, { sort: { categoryId: -1 } });
-        this.categoryId = lastCategory ? lastCategory.categoryId + 1 : 1; // Увеличиваем на 1
+        this.categoryId = lastCategory ? lastCategory.categoryId + 1 : 1;
         next();
     } catch (error) {
         next(error);

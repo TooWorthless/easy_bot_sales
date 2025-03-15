@@ -14,10 +14,8 @@ export default async function messageHandler(bot, msg) {
     const userId = msg.from.id;
 
     try {
-        // Ищем пользователя в базе данных
         const user = await User.findOne({ userId });
 
-        // Если пользователь не найден, создаем нового
         if (!user) {
             const newUser = new User({
                 userId,

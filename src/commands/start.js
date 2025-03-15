@@ -1,5 +1,5 @@
 import User from "../mongodb/schemes/user.js";
-import { mainMenu, adminMenu } from "../keyboards/menu.js"; // Импорт клавиатур
+import { mainMenu, adminMenu } from "../keyboards/menu.js";
 
 
 export default async function startCommand(bot, chatId, user) {
